@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/text_nausea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nausea: 0"
+                android:layout_marginBottom="8dp" />
+            <RatingBar
+                android:id="@+id/rating_nausea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:stepSize="1"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:id="@+id/text_headache"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Headache: 0"
+                android:layout_marginBottom="8dp" />
+            <RatingBar
+                android:id="@+id/rating_headache"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:stepSize="1"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:id="@+id/text_diarrhea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Diarrhea: 0"
+                android:layout_marginBottom="8dp" />
+            <RatingBar
+                android:id="@+id/rating_diarrhea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:stepSize="1"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:id="@+id/text_sore_throat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sore Throat: 0"
+                android:layout_marginBottom="8dp" />
+            <RatingBar
+                android:id="@+id/rating_sore_throat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:stepSize="1"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:id="@+id/text_fever"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fever: 0"
+                android:layout_marginBottom="8dp" />
+            <RatingBar
+                android:id="@+id/rating_fever"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:stepSize="1"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:id="@+id/text_muscle_ache"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Muscle Ache: 0"
+                android:layout_marginBottom="8dp" />
+            <RatingBar
+                android:id="@+id/rating_muscle_ache"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:stepSize="1"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:id="@+id/text_loss_smell_taste"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Loss of Smell/Taste: 0"
+                android:layout_marginBottom="8dp" />
+            <RatingBar
+                android:id="@+id/rating_loss_smell_taste"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:stepSize="1"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:id="@+id/text_cough"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cough: 0"
+                android:layout_marginBottom="8dp" />
+            <RatingBar
+                android:id="@+id/rating_cough"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:stepSize="1"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:id="@+id/text_shortness_of_breath"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shortness of Breath: 0"
+                android:layout_marginBottom="8dp" />
+            <RatingBar
+                android:id="@+id/rating_shortness_of_breath"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:stepSize="1"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:id="@+id/text_feeling_tired"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Feeling Tired: 0"
+                android:layout_marginBottom="8dp" />
+            <RatingBar
+                android:id="@+id/rating_feeling_tired"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:stepSize="1"
+                android:layout_marginBottom="16dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button_save_all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save All Recorded Data"
+        android:layout_margin="16dp"
+        android:layout_gravity="center" />
+
+</LinearLayout>
+
+
